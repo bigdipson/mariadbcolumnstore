@@ -1,6 +1,6 @@
 FROM debian:9
 
-MAINTAINER 'Ola'
+MAINTAINER 'Oladipo Olaniyan'
 
 # Set default env variables
 ENV TINI_VERSION=v0.18.0
