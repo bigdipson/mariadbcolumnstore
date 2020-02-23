@@ -1,0 +1,5 @@
+#!/bin/bash
+
+/usr/bin/monit -g ColumnStore unmonitor
+columnstore restart
+/usr/bin/monit -g ColumnStore monitor
